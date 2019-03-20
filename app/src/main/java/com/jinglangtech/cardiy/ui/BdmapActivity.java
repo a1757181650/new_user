@@ -5,13 +5,10 @@ import android.content.pm.PackageInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -38,7 +35,7 @@ import com.jinglangtech.cardiy.App;
 import com.jinglangtech.cardiy.R;
 import com.jinglangtech.cardiy.entity.CarShop;
 import com.jinglangtech.cardiy.location.LocationService;
-import com.jinglangtech.cardiy.utils.GlobalParmas;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
 import com.jinglangtech.cardiy.utils.OpenLocalMapUtil;
 import com.jinglangtech.cardiy.view.BottomSheetDialog;
 

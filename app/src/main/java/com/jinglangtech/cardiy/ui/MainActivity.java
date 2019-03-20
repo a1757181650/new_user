@@ -10,6 +10,9 @@ import android.widget.TextView;
 
 import com.google.android.material.tabs.TabLayout;
 import com.jinglangtech.cardiy.R;
+import com.jinglangtech.cardiy.ui.user.LoginActivity;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
+import com.jinglangtech.cardiy.utils.DataGenerator;
 import com.jinglangtech.cardiy.utils.GlobalParmas;
 import com.jinglangtech.cardiy.utils.StatusBarUtil;
 

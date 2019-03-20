@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.article;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import com.jinglangtech.cardiy.R;
 import com.jinglangtech.cardiy.entity.news.NewsContentResultModel;
 import com.jinglangtech.cardiy.subscribers.ObserverOnNextListener;
 import com.jinglangtech.cardiy.subscribers.ProgressObserver;
-import com.jinglangtech.cardiy.ui.BaseActivity;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
 import com.jinglangtech.cardiy.utils.CommonKeys;
 
 import java.util.Map;

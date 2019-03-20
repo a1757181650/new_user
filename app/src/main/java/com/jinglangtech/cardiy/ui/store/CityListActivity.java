@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.store;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,6 +10,7 @@ import com.jinglangtech.cardiy.adapter.CityListAdapter;
 import com.jinglangtech.cardiy.entity.CityModel;
 import com.jinglangtech.cardiy.entity.CityResult;
 import com.jinglangtech.cardiy.subscribers.ObserverOnNextListener;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
 
 import java.util.HashMap;
 import java.util.List;

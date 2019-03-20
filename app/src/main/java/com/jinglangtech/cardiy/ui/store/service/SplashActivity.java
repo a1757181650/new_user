@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.store.service;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
@@ -11,9 +11,10 @@ import android.view.WindowInsets;
 import android.view.WindowManager;
 
 import com.jinglangtech.cardiy.R;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
+import com.jinglangtech.cardiy.ui.MainActivity;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.core.view.ViewCompat;
 

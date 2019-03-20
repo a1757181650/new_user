@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.store.pic;
 
 
 import android.os.Bundle;

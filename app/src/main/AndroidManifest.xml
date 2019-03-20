@@ -35,11 +35,11 @@
         tools:replace="label,allowBackup"
         android:name=".App"
         tools:targetApi="n">
-        <activity android:name=".ui.ImageAlbumsActivity"/>
-        <activity android:name=".ui.SeverfuwuActivity" />
-        <activity android:name=".ui.CityshopActivity" />
-        <activity android:name=".ui.LoginActivity" />
-        <activity android:name=".ui.SplashActivity">
+        <activity android:name=".ui.store.pic.ImageAlbumsActivity"/>
+        <activity android:name=".ui.store.service.SeverfuwuActivity" />
+        <activity android:name=".ui.store.CityshopActivity" />
+        <activity android:name=".ui.user.LoginActivity" />
+        <activity android:name=".ui.store.service.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,9 +47,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.MainActivity" />
-        <activity android:name=".ui.CityListActivity" />
+        <activity android:name=".ui.store.CityListActivity" />
         <activity android:name=".ui.UserProfileActivity" />
-        <activity android:name=".ui.NewsDetailActivity" />
+        <activity android:name=".ui.article.NewsDetailActivity" />
         <activity android:name=".ui.BdmapActivity" />
 
         <meta-data

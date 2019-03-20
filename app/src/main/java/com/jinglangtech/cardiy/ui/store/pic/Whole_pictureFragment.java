@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.store.pic;
 
 
 import android.os.Bundle;
@@ -14,10 +14,10 @@ import androidx.fragment.app.Fragment;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class Gueststop_pictureFragment extends Fragment {
+public class Whole_pictureFragment extends Fragment {
 
 
-    public Gueststop_pictureFragment() {
+    public Whole_pictureFragment() {
         // Required empty public constructor
     }
 
@@ -26,7 +26,7 @@ public class Gueststop_pictureFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_gueststop_picture, container, false);
+        return inflater.inflate(R.layout.fragment_whole_picture, container, false);
     }
 
 }

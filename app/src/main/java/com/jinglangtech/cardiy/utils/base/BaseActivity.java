@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.utils.base;
 
 import android.content.Context;
 import android.content.IntentFilter;

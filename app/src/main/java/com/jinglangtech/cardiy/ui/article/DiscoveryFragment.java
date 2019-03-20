@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.article;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,6 +12,7 @@ import com.jinglangtech.cardiy.adapter.ItemNewsAdapter;
 import com.jinglangtech.cardiy.entity.news.NewsList;
 import com.jinglangtech.cardiy.entity.news.NewsResponseModel;
 import com.jinglangtech.cardiy.entity.news.Results;
+import com.jinglangtech.cardiy.utils.base.BaseFragment;
 import com.jinglangtech.cardiy.utils.CommonKeys;
 import com.jinglangtech.cardiy.http.ServerUrl;
 

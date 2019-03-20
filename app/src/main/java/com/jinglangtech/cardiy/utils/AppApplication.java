@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.utils;
 
 import android.app.Activity;
 import android.app.Application;

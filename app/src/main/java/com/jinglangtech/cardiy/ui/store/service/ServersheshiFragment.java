@@ -1,9 +1,7 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.store.service;
 
 
 import android.os.Bundle;
-import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,18 +9,24 @@ import android.view.ViewGroup;
 
 import com.jinglangtech.cardiy.R;
 
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.RecyclerView;
+
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ServerliliangFragment extends Fragment {
+public class ServersheshiFragment extends Fragment {
+
 
     private View view;
     private RecyclerView recyclerview;
-    public ServerliliangFragment() {
+
+    public ServersheshiFragment() {
         // Required empty public constructor
     }
 
-    public static ServerliliangFragment newInstance(String s) {
+    public static ServersheshiFragment newInstance(String s) {
+
         return null;
     }
 
@@ -32,8 +36,9 @@ public class ServerliliangFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        view = inflater.inflate(R.layout.fragment_serverliliang, null);
+        view = inflater.inflate(R.layout.fragment_serversheshi, null);
         recyclerview= view.findViewById(R.id.recyclerview);
+
         return view;
     }
 

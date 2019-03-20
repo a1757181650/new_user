@@ -11,6 +11,7 @@ import com.android.volley.Request;
 import com.jinglangtech.cardiy.R;
 import com.jinglangtech.cardiy.entity.user.UserInfoResults;
 import com.jinglangtech.cardiy.entity.user.UserInfoModel;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
 import com.jinglangtech.cardiy.utils.CommonKeys;
 import com.jinglangtech.cardiy.utils.UI;
 import com.jinglangtech.cardiy.http.ServerUrl;

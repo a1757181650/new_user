@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@mipmap/log_bj"
-    tools:context=".ui.LoginActivity">
+    tools:context=".ui.user.LoginActivity">
     <ImageView
         android:layout_width="30dp"
         android:layout_height="15dp"

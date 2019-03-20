@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.user;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -20,6 +20,7 @@ import com.jinglangtech.cardiy.entity.login.SendCodeModel;
 import com.jinglangtech.cardiy.http.AppRetrofit;
 import com.jinglangtech.cardiy.subscribers.ObserverOnNextListener;
 import com.jinglangtech.cardiy.subscribers.ProgressObserver;
+import com.jinglangtech.cardiy.utils.base.BaseActivity;
 import com.jinglangtech.cardiy.utils.Utils;
 import com.jinglangtech.cardiy.utils.GlobalParmas;
 import com.jinglangtech.cardiy.http.ServerUrl;

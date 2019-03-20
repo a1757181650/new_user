@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.jinglangtech.cardiy.R;
+import com.jinglangtech.cardiy.ui.store.pic.ImageAlbumsActivity;
+import com.jinglangtech.cardiy.ui.store.service.SeverfuwuActivity;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;

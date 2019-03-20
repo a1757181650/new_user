@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.ImageAlbumsActivity">
+    tools:context=".ui.store.pic.ImageAlbumsActivity">
     <include
         android:id="@+id/layoutHeader"
         layout="@layout/toolbar" />

@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.ui.store.pic;
 
 
 import android.os.Bundle;
@@ -8,11 +8,6 @@ import android.widget.TextView;
 import com.google.android.material.tabs.TabLayout;
 import com.jinglangtech.cardiy.R;
 import com.jinglangtech.cardiy.adapter.MyViewPageAdapter;
-import com.jinglangtech.cardiy.ui.Gueststop_pictureFragment;
-import com.jinglangtech.cardiy.ui.Livingroom_pictureFragment;
-import com.jinglangtech.cardiy.ui.Outdoorscene_pictureFragment;
-import com.jinglangtech.cardiy.ui.Whole_pictureFragment;
-import com.jinglangtech.cardiy.ui.Workshop_pictureFragment;
 
 import java.util.ArrayList;
 

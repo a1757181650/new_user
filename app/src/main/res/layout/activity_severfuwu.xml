@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".ui.SeverfuwuActivity">
+    tools:context=".ui.store.service.SeverfuwuActivity">
     <include
         layout="@layout/toolbar"/>
     <com.google.android.material.tabs.TabLayout

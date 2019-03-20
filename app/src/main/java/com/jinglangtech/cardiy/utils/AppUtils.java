@@ -21,8 +21,6 @@ import android.view.WindowManager;
 import android.widget.Toast;
 
 
-import com.jinglangtech.cardiy.ui.AppApplication;
-
 import java.util.List;
 
 import androidx.annotation.ArrayRes;

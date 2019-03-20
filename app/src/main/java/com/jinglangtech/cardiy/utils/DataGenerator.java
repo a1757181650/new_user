@@ -1,4 +1,4 @@
-package com.jinglangtech.cardiy.ui;
+package com.jinglangtech.cardiy.utils;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,6 +7,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jinglangtech.cardiy.R;
+import com.jinglangtech.cardiy.ui.AttentionFragment;
+import com.jinglangtech.cardiy.ui.HomeFragment;
+import com.jinglangtech.cardiy.ui.ProfileFragment;
+import com.jinglangtech.cardiy.ui.article.DiscoveryFragment;
 
 import androidx.fragment.app.Fragment;
 
