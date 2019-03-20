@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@mipmap/banner" android:gravity="top" />
+    </item>
+
+    <item>
+        <bitmap android:src="@mipmap/top_status_bar" android:gravity="top" />
+    </item>
+</layer-list>

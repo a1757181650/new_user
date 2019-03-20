@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <!-- 收起展开textview -->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+        <attr name="contentTextColor" format="color" />
+        <attr name="collapseExpandTextColor" format="color" />
+        <attr name="contentTextSize" format="dimension" />
+        <attr name="collapseExpandTextSize" format="dimension" />
+        <attr name="textCollapse" format="string" />
+        <attr name="textExpand" format="string" />
+        <attr name="collapseExpandGrarity">
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+        </attr>
+        <attr name="drawableGrarity">
+            <flag name="left" value="3" />
+            <flag name="right" value="5" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="UnderLineLinearLayout">
+
+        <!-- 时间轴偏移值 -->
+        <attr name="line_margin_side" format="dimension" />
+        <!-- 时间轴动态调整值 -->
+        <attr name="line_dynamic_dimen" format="dimension" />
+        <!-- 线宽 -->
+        <attr name="line_stroke_width" format="dimension" />
+        <!-- 线的颜色 -->
+        <attr name="line_color" format="color" />
+        <!-- 点的大小 -->
+        <attr name="point_size" format="dimension" />
+        <!-- 点的颜色 -->
+        <attr name="point_color" format="color" />
+        <!-- 图标 -->
+        <attr name="icon_src" format="reference" />
+        <!-- 时间轴的gravity -->
+        <!-- the gravity of the timeline -->
+        <attr name="line_gravity">
+            <enum name="Left" value="2" />
+            <enum name="Right" value="4" />
+            <enum name="Middle" value="0" />
+            <enum name="Top" value="1" />
+            <enum name="Bottom" value="3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RatingBar">
+
+        <!-- 尺寸值 -->
+        <attr name="starImageSize" format="dimension" />
+        <!-- 星星间距 -->
+        <attr name="starPadding" format="dimension" />
+        <!-- 星星总数 -->
+        <attr name="starCount" format="integer" />
+        <!-- 空白的星星资源文件值 -->
+        <attr name="starEmpty" format="reference" />
+        <!-- 满星资源文件值 -->
+        <attr name="starFill" format="reference" />
+        <!-- 半星资源文件值 -->
+        <attr name="starHalf" format="reference" />
+        <!-- 是否可点击boolean值 -->
+        <attr name="clickable" format="boolean" />
+        <!-- 当前进度float值 -->
+        <attr name="starStep" format="float" />
+        <!-- 每次进度方式的值，整星还是半星 -->
+        <attr name="stepSize">
+            <enum name="Half" value="0" />
+            <enum name="Full" value="1" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension" />
+        <attr name="riv_corner_radius_top_left" format="dimension" />
+        <attr name="riv_corner_radius_top_right" format="dimension" />
+        <attr name="riv_corner_radius_bottom_left" format="dimension" />
+        <attr name="riv_corner_radius_bottom_right" format="dimension" />
+        <attr name="riv_border_width" format="dimension" />
+        <attr name="riv_border_color" format="color" />
+        <attr name="riv_mutate_background" format="boolean" />
+        <attr name="riv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0" />
+            <enum name="repeat" value="1" />
+            <enum name="mirror" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="wheelview">
+        <attr name="gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColorOut" format="color"/>
+        <attr name="textColorCenter" format="color"/>
+        <attr name="dividerColor" format="color"/>
+    </declare-styleable>
+
+</resources>

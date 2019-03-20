@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/toolbar"
+        />
+    <RelativeLayout
+        android:id="@+id/icon_recent_select"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        >
+
+        <ImageView
+            android:id="@+id/icon_recent"
+            android:layout_width="64dip"
+            android:layout_height="64dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_med"
+            android:layout_marginRight="@dimen/margin_max"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="1dp"
+            android:src="@mipmap/kefu_ic_zuijing" />
+
+        <TextView
+            android:id="@+id/textView_recent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/icon_recent"
+            android:text="最近联系"
+
+            android:textSize="@dimen/text_size_17" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/space_1"
+        android:background="#000000" />
+    <LinearLayout
+        android:id="@+id/saler_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginLeft="@dimen/margin_max"
+            android:layout_marginRight="@dimen/margin_max" >
+
+            <ImageView
+                android:id="@+id/icon_salerzhang"
+                android:layout_width="67dip"
+                android:layout_height="67dip"
+                android:layout_marginTop="14dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/default_image" />
+
+            <TextView
+                android:id="@+id/textView_salerzhangl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="张林"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF1B1B1B"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/textView_saler_tipzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="38dp"
+                android:text="专属销售顾问"
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_13" />
+            <TextView
+                android:id="@+id/dianpingzhang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="60dp"
+
+                android:text="点评 358人｜推荐 96% ｜能力 4.7分｜礼仪 4.9分 "
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_10" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/shouji"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="23dp"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1"
+            android:background="#FFF5F5F5" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginLeft="@dimen/margin_max"
+            android:layout_marginRight="@dimen/margin_max" >
+
+            <ImageView
+                android:id="@+id/icon_saler1"
+                android:layout_width="67dip"
+                android:layout_height="67dip"
+                android:layout_marginTop="14dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/wanger" />
+
+            <TextView
+                android:id="@+id/textView_wanger"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="王二"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF1B1B1B"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/textView_wangerzhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="38dp"
+                android:text="销售顾问"
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_13" />
+            <TextView
+                android:id="@+id/dianpingwang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="60dp"
+
+                android:text="点评 358人｜推荐 96% ｜能力 4.7分｜礼仪 4.9分 "
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_10" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/shouji"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="23dp"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1"
+            android:background="#FFF5F5F5" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginLeft="@dimen/margin_max"
+            android:layout_marginRight="@dimen/margin_max" >
+
+            <ImageView
+                android:id="@+id/icon_saler2"
+                android:layout_width="67dip"
+                android:layout_height="67dip"
+                android:layout_marginTop="14dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/lisiyang" />
+
+            <TextView
+                android:id="@+id/textView_saler2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="李思阳"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF1B1B1B"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/textView_saler_tip2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="38dp"
+                android:text="销售顾问"
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_13" />
+            <TextView
+                android:id="@+id/dianping2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="83dp"
+                android:layout_marginTop="60dp"
+
+                android:text="点评 358人｜推荐 96% ｜能力 4.7分｜礼仪 4.9分 "
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_10" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/shouji"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="23dp"
+                />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space_1"
+            android:background="#FFF5F5F5" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_marginLeft="@dimen/margin_max"
+            android:layout_marginRight="@dimen/margin_max" >
+
+            <ImageView
+                android:id="@+id/icon_saler"
+                android:layout_width="67dip"
+                android:layout_height="67dip"
+                android:layout_marginTop="14dp"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/jinji" />
+
+            <TextView
+                android:id="@+id/textView_saler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:text="紧急救援"
+                android:layout_marginTop="15dp"
+                android:textColor="#FF1B1B1B"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/textView_saler_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="38dp"
+                android:text="24h紧急救援"
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_13" />
+            <TextView
+                android:id="@+id/dianping"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="60dp"
+                android:layout_toRightOf="@id/icon_saler"
+                android:text="点评 358人｜推荐 96% ｜能力 4.7分｜礼仪 4.9分 "
+                android:textColor="#FF999999"
+                android:textSize="@dimen/text_size_10" />
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="22dp"
+                android:src="@mipmap/shouji"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="23dp"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout></LinearLayout>
